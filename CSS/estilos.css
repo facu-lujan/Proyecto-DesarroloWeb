@@ -317,4 +317,53 @@ body {
     
 }
 
+
+.box{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 80px auto;
+
+}
+
+.box1{
+    background-color: rgb(61, 20, 20);
+}
+
+.box2{
+    background-color: rgb(196, 123, 123);
+}
+
+.box:hover{
+    transform: scale(2);
+}
+
+.box1{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.box2{
+    transition-property: all;
+    transition-duration: 1s;
+ }
+
+.imagenServicio{
+    margin: 100px auto;
+}
+
+.imagenServicio:hover{
+    animation: servicio 1s;
+}
+
+@keyframes servicio{
+     0%{
+         transform: scale(100px)
+     }
+     25%{
+        transform: translateY(300px)
+    };
+
+}
+
 }
