@@ -237,10 +237,12 @@ body {
 
 .fondo__color {
     background-color: rgb(110, 110, 110)
+    
 }
 
 .historia {
     height: 400px;
+    width: 100vw;
     display: flex;
     justify-items: center;
     align-items: center;
